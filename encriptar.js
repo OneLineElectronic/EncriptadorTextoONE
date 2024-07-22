@@ -64,9 +64,9 @@ function decryptText() {
     paragraph.textContent = "";
     doll.src = "./img/desencriptado.jpg";
   } else {
-    doll.src = "./img/doll.png";
-    titleMessage.textContent = "No message found";
-    paragraph.textContent = "Enter the text you want to encrypt or decrypt";
-    swal("Ooops!", "You must enter some text", "warning");
+    doll.src = "./img/muñeco.png";
+    titleMessage.textContent = "Ningún mensaje fue encontrado";
+    paragraph.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
+    swal("Ooops!", "Debes ingresar un texto", "warning");
   }
 }
