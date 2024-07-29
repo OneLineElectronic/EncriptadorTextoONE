@@ -1,5 +1,5 @@
 
-# EChallenge Encriptador de texto
+# Challenge Encriptador de texto
 
 Este encriptdor de texto muestra un poco de lo aprendido 
 en los cursos de Alura latam y ONE.
