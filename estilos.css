@@ -100,11 +100,17 @@
   color: #0a3871;
 }
 
+.encriptado:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 .btn-desencriptar:hover,
 .btn-encriptar:hover {
   margin: 0.3%;
   width: 24.5%;
   padding: 1.8%;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: -webkit-grab; cursor: grab;
 }
 
 .encriptado {
@@ -211,11 +217,13 @@
   }
   
   .botones {
+    
     width: 80%;
     left: 10%;
     top: 70%;
   }
   
+
   .btn-encriptar,
   .btn-desencriptar {
     width: 48%;
